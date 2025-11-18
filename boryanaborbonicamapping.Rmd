@@ -643,7 +643,7 @@ reunion_limits_long <- c(55.1, 55.9) # Tighter Longitude for visual zoom
 reunion_limits_lat <- c(-21.4, -20.75) # Tighter Latitude for visual zoom
 reunion_map <- NULL
 zoom_level <- 10 # Reverted zoom, as visual size is now controlled by limits
-api_key <- "AIzaSyBAAyFPIOj1TKBWik1J0o5mg6mfVhdyJak"
+api_key <- ""
 
 cat(paste("Fetching Google Satellite map tiles (Zoom", zoom_level, ") with maximized island focus..."))
 tryCatch({
